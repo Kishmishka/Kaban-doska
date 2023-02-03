@@ -1,0 +1,6 @@
+.TodoListItem{
+	transition: 0.3s;
+}
+.TodoListItem:hover{
+	transform: translateX(10px);
+}
