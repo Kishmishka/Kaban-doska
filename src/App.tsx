@@ -18,9 +18,6 @@ function App() {
 		fetcTodo()
 	},[])
 	
-	function stratFilter(todos:ITodo){
-		
-	}
 	async function fetchusers() {
 		try{
 			const responce = await axios.get<IUser[]>('https://jsonplaceholder.typicode.com/users')

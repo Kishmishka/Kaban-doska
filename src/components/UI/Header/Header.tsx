@@ -1,6 +1,5 @@
 import { HandySvg } from 'handy-svg'
 import logo from '../../../svg/logo.svg'
-import React from 'react'
 import './Header.scss'
 
 const Header = () => {

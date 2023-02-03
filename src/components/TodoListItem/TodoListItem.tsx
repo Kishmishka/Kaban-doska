@@ -14,11 +14,8 @@ interface TodoListItemProps{
 	setComlitedTask:(todos:ITodo[])=>void;
 }
 
-
 const TodoListItem: FC<TodoListItemProps> = ({todo, setTodos,todos,setCountTask,countTask,setComlitedTask,complitedTask}) => {
 	
-	
-
 	return(
 		<div className='TodoListItem'
 		onClick={()=>{

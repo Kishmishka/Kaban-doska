@@ -36,10 +36,7 @@ const UserListItem: FC<UserListItemProps> = ({user,todos,setTodos}) => {
 	useEffect(()=>{stratFilter(todos,user,setComlitedTask,setCountTask)},[])
 	return(
 		
-		<div 
-		className='userCard'
-		
-		>
+		<div className='userCard'>
 			<div className="userCard_info">
 				<div className="countTask">
 					{countTask}
@@ -61,8 +58,7 @@ const UserListItem: FC<UserListItemProps> = ({user,todos,setTodos}) => {
 							title: newTask,
 							completed:false,
 						}])
-					}
-				}}>Add task</Button>
+					}}}>Add task</Button>
 			</div>
 			<Transition
 			in={active}
@@ -93,9 +89,7 @@ const UserListItem: FC<UserListItemProps> = ({user,todos,setTodos}) => {
 					</div>
 					
 				</div>}
-				
 			</Transition>
-			
 		</div>
 		
 		
